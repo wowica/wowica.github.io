@@ -1,23 +1,54 @@
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
     body {
         background-color: #000;
+        color: rgb(76,121,13);
     }
 
     main {
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
+        font-size: 1.6em;
+    }
+    div.pool-info {
+        padding: 10px;
+        text-align: center;
+    }
+    div.pool-info p {
+        font-size: 1.2em;
+        margin: -30 auto;
+        margin-bottom: 3em;
+        width: 40%;
+    }
+    div.pool-info ul {
+        font-family: 'Antic Slab', serif;
+        list-style-type: none;
+    }
+    div.pool-info ul li a {
+        text-decoration: none;
+        color: rgb(121,121,13);
+    }
+    div.pool-info ul li a:visited {
+        color: rgb(76,121,13);
+    }
+    div.pool-info ul li a:hover {
+        text-decoration: underline;
+        font-weight:bold;
     }
 </style>
 <body>
     <main>
         <!-- <img src="fulllogo.jpg"></img> -->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1280" height="1024" viewBox="0 0 1280 1024" xml:space="preserve">
+<div>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="853" height="512" viewBox="0 0 1280 1024" xml:space="preserve">
 <desc>Created with Fabric.js 4.4.0</desc>
 <defs>
 </defs>
 <g transform="matrix(1 0 0 1 640 512)" id="background-logo"  >
-<rect style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  x="-640" y="-512" rx="0" ry="0" width="1280" height="1024" />
+<rect style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  x="-640" y="-512" rx="0" ry="0" width="853" height="512" />
 </g>
 <g transform="matrix(1.9211538461538462 0 0 1.9211538461538462 640 409.810653478507)" id="logo-logo"  >
 <g style=""  paint-order="stroke"   >
@@ -41,5 +72,17 @@
 </g>
 </g>
 </svg>
+</div>
+<div class="pool-info">
+    <p>
+        Our mission is to promote the decentralization of the Cardano blockchain and provide a platform for dApps and DeFi.
+    </p>
+    <ul>
+        <li>Ticker: <a href="#/link-to-adapools-page">JUNGLE</a></li>
+        <li>ADA Handle:
+            <a href="#/link-to-ada-handle-page">$junglestakepool</a>
+        </li>
+    </ul>
+</div>
     </main>
 </body>
