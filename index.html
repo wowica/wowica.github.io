@@ -1,8 +1,11 @@
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
 
     body {
+        font-family: 'Unica One', serif;
         background-color: #000;
+        font-size: large;
         color: rgb(76,121,13);
     }
 
@@ -11,28 +14,38 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
     div.pool-info {
+        display: flex;
         padding: 10px;
         text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     div.pool-info p {
-        font-size: 1.2em;
-        margin: -30 auto;
-        margin-bottom: 3em;
-        width: 40%;
+        font-size: 1.5em;
+        margin-top: 3em;
+        width: 50%;
     }
     div.pool-info ul {
-        font-family: 'Antic Slab', serif;
         list-style-type: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 3%;
+        font-size: 1.5em;
+    }
+    div.pool-info .learn {
+        font-size: 0.8em;
     }
     div.pool-info ul li a {
         text-decoration: none;
         color: rgb(121,121,13);
     }
     div.pool-info ul li a:visited {
-        color: rgb(76,121,13);
+        color: rgb(121,121,13);
     }
     div.pool-info ul li a:hover {
         text-decoration: underline;
@@ -45,13 +58,9 @@
 <div>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="853" height="512" viewBox="0 0 1280 1024" xml:space="preserve">
 <desc>Created with Fabric.js 4.4.0</desc>
-<defs>
-</defs>
-<g transform="matrix(1 0 0 1 640 512)" id="background-logo"  >
-<rect style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  x="-640" y="-512" rx="0" ry="0" width="853" height="512" />
-</g>
+
 <g transform="matrix(1.9211538461538462 0 0 1.9211538461538462 640 409.810653478507)" id="logo-logo"  >
-<g style=""  paint-order="stroke"   >
+<g paint-order="stroke"   >
 		<g transform="matrix(1.9260674645363367 0 0 1.9260674645363367 0 0)"  >
 <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(94,137,15); fill-rule: nonzero; opacity: 1;"  paint-order="stroke"  transform=" translate(-50, -48.46554565)" d="M 90.6834106 20.951355 L 57.9365234 19.8412476 L 89.0471191 18.786682199999998 C 88.1998901 17.728149499999997 87.31030270000001 16.7063599 86.3813476 15.720764199999998 L 67.4603271 15.079345699999998 L 85.1812133 14.478637699999997 C 76.1467896 5.5302124 63.7205811 0 50 0 C 23.8804321 0 2.4509888 20.0315552 0.2063599 45.5681763 L 17.5595093 46.5412598 L 0.0626221 47.5223999 C 0.022522 48.3433838 0 49.1690674 0 50 C 0 51.1811523 0.0556641 52.3486328 0.1362305 53.5093384 L 14.0872803 54.291625999999994 L 0.2546997 55.0673218 C 0.7377929999999999 59.8668823 1.9100342 64.4607544 3.6532593 68.7623291 L 24.7669068 69.946228 L 4.6578369 71.0738525 C 10.204895 82.9880371 20.2992554 92.35620109999999 32.7196655 96.9310913 C 33.4191284 89.6948242 35.980590799999995 82.828186 37.2468261 76.7783203 L 32.6569213 84.30645750000001 C 33.0424193 77.6687622 36.8773803 69.3286133 37.9794921 61.47467040000001 L 33.6692504 67.25299070000001 L 33.7578734 61.00500490000001 C 33.875610200000004 52.71185300000001 31.7995604 43.31683350000001 27.0246581 36.53533940000001 L 26.4900512 35.776123100000014 C 25.6051635 34.519165100000016 25.3144531 32.937988300000015 25.6944579 31.448425300000014 L 26.0264891 29.730957000000014 C 26.2933348 28.684997500000016 27.555908 28.269897400000016 28.3913573 28.953247000000015 L 37.2139281 36.16992180000001 L 32.6774901 20.52239980000001 C 32.0790404 18.45812980000001 32.7160033 16.233459400000008 34.3164061 14.79864490000001 L 35.5325316 13.708496000000011 C 36.1031493 13.19683830000001 36.9766234 13.22937000000001 37.5076293 13.782043400000012 L 47.747070199999996 24.43951410000001 C 49.6857299 26.457153300000012 51.99047839999999 28.08764640000001 54.538391 29.24395750000001 L 60.545226899999996 31.97009280000001 C 69.6995238 34.66162110000001 69.86737049999999 39.17321780000001 79.1213988 43.54742430000001 C 79.1213988 43.54742430000001 71.82684309999999 43.02307130000001 70.0290526 42.58551020000001 C 70.0290526 42.58551020000001 71.7540282 49.79309080000001 85.74987780000001 50.44909660000001 C 85.74987780000001 50.44909660000001 79.7047728 48.10510250000001 77.4792479 45.634765500000015 C 81.61010730000001 46.180236700000016 85.27801500000001 46.924316300000015 85.27801500000001 46.924316300000015 L 82.41223130000002 44.671142500000016 C 87.64111310000001 46.56249990000001 92.48730450000002 49.07873530000002 92.76989730000001 50.917297300000016 C 92.9439085 52.44128410000002 88.8107298 52.670959400000015 83.56097400000002 53.778869600000014 C 80.81286610000002 54.35882570000001 76.61810290000001 55.00805660000002 73.30328360000001 53.804077100000015 C 77.39801020000002 61.97509760000001 82.73809810000002 66.96429440000001 85.71429430000002 76.04168700000001 L 81.34918200000001 72.02380370000002 C 83.74169910000002 76.18896480000002 85.01983630000001 80.15875240000001 86.23016340000001 84.43780520000001 C 94.7568359 75.4702148 100 63.3511353 100 50 C 100 39.1634521 96.5412598 29.140686 90.6834106 20.951355 z" stroke-linecap="round" />
 </g>
@@ -74,15 +83,12 @@
 </svg>
 </div>
 <div class="pool-info">
+    <ul>
+        <li>Ticker: <a href="https://pooltool.io/pool/09fa1d3156d3ed6eb2370631777d66bf1c14b9405c8eb361d58603ed/epochs" target="_blank">JNGL</a></li>
+    </ul>
     <p>
         Our mission is to promote the decentralization of the Cardano blockchain and provide a platform for dApps and DeFi.
     </p>
-    <ul>
-        <li>Ticker: <a href="#/link-to-adapools-page">JUNGLE</a></li>
-        <li>ADA Handle:
-            <a href="#/link-to-ada-handle-page">$junglestakepool</a>
-        </li>
-    </ul>
 </div>
     </main>
 </body>
